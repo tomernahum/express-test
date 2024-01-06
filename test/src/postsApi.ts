@@ -2,8 +2,8 @@
 import express from 'express'
 import db from './db'
 
-//@ts-ignore
-const router: express.Router = express.Router()
+
+const router = express.Router()
 
 
 
