@@ -1,0 +1,7 @@
+
+Todo:
+- add auth maybe (need to learn how that works)
+
+
+Notes:
+- I didn't make it very typesafe, due to the bun sqlite interface (and sqlite in general) not being typesafe. Maybe in a more serious project I would use drizzle to get it typesafe and then also use something like zod to validate the types of the input requests?
